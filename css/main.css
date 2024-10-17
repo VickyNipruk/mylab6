@@ -1,0 +1,58 @@
+body{
+    background-image: url(../image/background1.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+.frame-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 15px;
+}
+
+
+.youtube-video{
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+}
+
+.frame-box iframe,
+.youtube-video iframe {
+    border-radius: 10px;
+}
+
+.audio-icon{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.audio-player {
+    flex-grow: 1; 
+}
+
+.audio-icon div {
+    margin: 0 10px;
+}
+
+.fb-share-button {
+    margin-right: 10px;
+}
+
+.fb-share-button a {
+    display: none;
+}
